@@ -20,7 +20,7 @@ app.use(express.json()); // will allow us to parse  req.body
 
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/movie", movieRoutes);
-
+app.use("/api/v1/tv", tvRoutes);
 
 app.listen(PORT, () => {
     console.log('Server started at http://localhost:'+ PORT);
