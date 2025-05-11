@@ -4,7 +4,7 @@ import express  from 'express';
 
 import authRoutes from "./routes/auth.route.js";
 import movieRoutes  from "./routes/movie.route.js";
-import movieRoutes  from "./routes/tv.route.js";
+import tvRoutes from "./routes/tv.route.js";
 
 import { ENV_VARS } from "./config/envVars.js";
 import { connectDB } from './config/db.js';
