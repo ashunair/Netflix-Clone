@@ -25,7 +25,7 @@ const Navbar = () => {
 						Movies
 					</Link>
 					<Link to='/' className='hover:underline' onClick={() => setContentType("tv")}>
-						TV Shows
+						Series
 					</Link>
 					<Link to='/history' className='hover:underline'>
 						Search History
@@ -51,7 +51,7 @@ const Navbar = () => {
 						Movies
 					</Link>
 					<Link to={"/"} className='block hover:underline p-2' onClick={toggleMobileMenu}>
-						Tv Shows
+						Series
 					</Link>
 					<Link to={"/history"} className='block hover:underline p-2' onClick={toggleMobileMenu}>
 						Search History

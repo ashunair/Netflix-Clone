@@ -53,7 +53,7 @@ const SearchPage = () => {
 						} hover:bg-red-700`}
 						onClick={() => handleTabClick("tv")}
 					>
-						TV Shows
+						Series
 					</button>
 					<button
 						className={`py-2 px-4 rounded ${
